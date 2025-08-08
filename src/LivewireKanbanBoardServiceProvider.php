@@ -1,6 +1,6 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard;
+namespace ClaseExcel\LivewireKanbanBoard;
 
 use Illuminate\Support\ServiceProvider;
 

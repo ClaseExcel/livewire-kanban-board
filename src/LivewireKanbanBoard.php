@@ -1,13 +1,13 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard;
+namespace ClaseExcel\LivewireKanbanBoard;
 
 use Illuminate\Support\Collection;
 use Livewire\Component;
 
 /**
  * Class LivewireKanbanBoard
- * @package Mantix\LivewireKanbanBoard
+ * @package ClaseExcel\LivewireKanbanBoard
  * @property boolean $sortable
  * @property boolean $sortableBetweenStatuses
  * @property string $kanbanBoardView

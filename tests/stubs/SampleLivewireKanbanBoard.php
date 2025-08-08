@@ -1,8 +1,8 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard\Tests\Stubs;
+namespace ClaseExcel\LivewireKanbanBoard\Tests\Stubs;
 
-use Mantix\LivewireKanbanBoard\LivewireKanbanBoard;
+use ClaseExcel\LivewireKanbanBoard\LivewireKanbanBoard;
 use Illuminate\Support\Collection;
 
 class SampleLivewireKanbanBoard extends LivewireKanbanBoard {

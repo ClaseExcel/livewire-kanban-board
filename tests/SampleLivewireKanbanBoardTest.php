@@ -1,9 +1,9 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard\Tests;
+namespace ClaseExcel\LivewireKanbanBoard\Tests;
 
 use Livewire\Features\SupportTesting\Testable;
-use Mantix\LivewireKanbanBoard\Tests\Stubs\SampleLivewireKanbanBoard;
+use ClaseExcel\LivewireKanbanBoard\Tests\Stubs\SampleLivewireKanbanBoard;
 use Livewire\Livewire;
 
 class SampleLivewireKanbanBoardTest extends TestCase {

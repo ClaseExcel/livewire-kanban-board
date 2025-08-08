@@ -1,8 +1,8 @@
 <?php
 
-namespace Mantix\LivewireKanbanBoard\Tests;
+namespace ClaseExcel\LivewireKanbanBoard\Tests;
 
-use Mantix\LivewireKanbanBoard\LivewireKanbanBoardServiceProvider;
+use ClaseExcel\LivewireKanbanBoard\LivewireKanbanBoardServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseCase;
 

@@ -2,7 +2,7 @@
     "name": "claseexcel/livewire-kanban-board",
     "description": "Livewire component to show models/data according to its current status on a Kanban board",
     "keywords": [
-        "mantix",
+        "claseexcel",
         "livewire-kanban-board"
     ],
     "homepage": "https://github.com/ClaseExcel/livewire-kanban-board",
