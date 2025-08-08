@@ -1,24 +1,24 @@
 {
-    "name": "mantix/livewire-kanban-board",
+    "name": "claseexcel/livewire-kanban-board",
     "description": "Livewire component to show models/data according to its current status on a Kanban board",
     "keywords": [
         "mantix",
         "livewire-kanban-board"
     ],
-    "homepage": "https://github.com/mantix/livewire-kanban-board",
+    "homepage": "https://github.com/ClaseExcel/livewire-kanban-board",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Pieter Naber",
-            "email": "Pieter@Mantix.nl",
+            "name": "Clase de Excel",
+            "email": "info@clasedeexcel.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^10.0",
-        "laravel/framework": "^10.0",
+        "illuminate/support": "^10.0|^11.0",
+        "laravel/framework": "^10.0|^11.0",
         "livewire/livewire": "^3.0"
     },
     "require-dev": {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\": "src"
+            "ClaseExcel\\LivewireKanbanBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mantix\\LivewireKanbanBoard\\Tests\\": "tests"
+            "ClaseExcel\\LivewireKanbanBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
+                "ClaseExcel\\LivewireKanbanBoard\\LivewireKanbanBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireKanbanBoard": "Mantix\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
+                "LivewireKanbanBoard": "ClaseExcel\\LivewireKanbanBoard\\LivewireKanbanBoardFacade"
             }
         }
     }

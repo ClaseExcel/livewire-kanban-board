@@ -4,19 +4,19 @@ Livewire component to show records/data according to their current status on a K
 
 ### Preview
 
-![preview](https://github.com/mantix/livewire-kanban-board/raw/master/preview.gif)
+![preview](https://github.com/ClaseExcel/livewire-kanban-board/raw/master/preview.gif)
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-composer require mantix/livewire-kanban-board
+composer require claseexcel/livewire-kanban-board
 ```
 
 ### Requirements
 
-This package uses `laravel/laravel` (https://laravel.com/) and `livewire/livewire` (https://livewire.laravel.com/) under the hood.
+This package uses `laravel/laravel 10 - 11` (https://laravel.com/) and `livewire/livewire 3` (https://livewire.laravel.com/) under the hood.
 
 It also uses Bootstrap CSS (https://getbootstrap.com/) for base styling. 
 
@@ -154,7 +154,7 @@ To render the component in a view, just use the Livewire tag or include syntax
 
 Populate the Sales Order model and you should have something similar to the following screenshot
 
-![basic](https://github.com/mantix/livewire-kanban-board/raw/master/basic.jpg)
+![basic](https://github.com/ClaseExcel/livewire-kanban-board/raw/master/basic.jpg)
 
 You can render any render and statuses of your project using this approach 👍
 
@@ -280,7 +280,7 @@ public function styles()
 
 With these new styles, your component should look like the screenshot below
 
-![basic](https://github.com/mantix/livewire-kanban-board/raw/master/styles.jpg)
+![basic](https://github.com/ClaseExcel/livewire-kanban-board/raw/master/styles.jpg)
 
 Looks like Trello, right? 😅
 
@@ -325,7 +325,7 @@ Note: These views are optional.
 
 In the following example, a `before-kanban-board-view` has been specified to add a search text box and a button
 
-![extra-views](https://github.com/mantix/livewire-kanban-board/raw/master/extra-views.jpg)
+![extra-views](https://github.com/ClaseExcel/livewire-kanban-board/raw/master/extra-views.jpg)
 
 ### Testing
 
@@ -347,6 +347,7 @@ If you discover any security related issues, please email santibanez.andres@gmai
 
 ## Credits
 
+- [Clase de Excel](https://github.com/ClaseExcel)
 - [Pieter Naber](https://github.com/mantix)
 - [Mantix BV](https://mantix.nl)
 - [Andrés Santibáñez](https://github.com/asantibanez)

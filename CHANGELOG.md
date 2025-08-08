@@ -4,6 +4,7 @@
 
 - Added support for PHP 8
 - Added Laravel 10 support
+- Added Laravel 11 support
 - Added Livewire 3 support
 - Added Bootstrap styling support
 
